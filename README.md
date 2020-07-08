@@ -23,7 +23,7 @@ iii) Terraform
 
 
 
-###day2
+### Day2
 1. the pure configuration of EKS is entirely handle by Kubernetes master. It launches the instances with some constraints that is what type of instance we need like t2.micro or t2.small or what type of volume require EBS or S3 or what is the costing of usage or on-demand and rest of the management done by EKS.
 2. We can also make some customisation like we can use Windows worker node and also use spot instances and make some auto-scaling either manually or using some program.
 3. We EKS is good for managing multiple EC2, EBS, EFS, ELB and on AWS we can reate our own EC2 cluster and manage it our own or it can be managed by EKS. but it has sime limitations that it can integrate only internal service like ELB.
@@ -40,3 +40,4 @@ iii) Terraform
 14. about the HELM which is Hub similar like Docker Hub which provide man y Kubernetes images for running pods like Jenkins stable image, SQL images etc.
 15. how to use prometheus and garafana on Kubernetes. We launch pods for prometheus and grafana using different namespaces.
 
+### by PRYANSH GUPTA
